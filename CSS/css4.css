@@ -1,0 +1,10 @@
+div{
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+    border: 1px solid;
+}
+#d2{
+    margin-left: 210px;
+    margin-top: -400px;
+}

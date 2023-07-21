@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    width: 18rem;
+    border: 1px solid;
+    position: relative;
+    margin-top: 50px;
+}
+h2{
+    position: absolute;
+    width: 18rem;
+    top: 0px;
+    color: rgb(255, 47, 0);
+    background-color: aqua;
+    visibility: hidden;
+    height: 100%;
+    opacity: 0.7;
+}
+div:hover h2{
+    visibility: visible;
+}
+img{
+    width: 100%;
+}
+h1{
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: brown;
+
+}
+
+section{
+    background-color: bisque;
+    position: sticky;
+    top: 100px;
+}
